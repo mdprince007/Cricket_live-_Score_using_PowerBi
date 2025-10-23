@@ -92,4 +92,42 @@ Each card includes:
 | Test | ✅ Result Declared | PAK won by 90 runs |
 
 
+## Project Insights
+
+- The dashboard effectively simulates a **real-time live score platform**.  
+- Users can instantly switch between **All**, **Live**, and **Result** matches.  
+- **HTML + DAX integration** showcases the creative side of Power BI beyond standard visuals.  
+- The project design demonstrates advanced **UI/UX thinking** and **Power BI customization**.  
+
+---
+
+## Final Conclusion
+
+To further enhance the dashboard:  
+- Connect a **live cricket API** for real-time match data.  
+- Use **Power BI Service refresh** to auto-update every few minutes.  
+- Add **player performance stats** and **series comparison visuals**.  
+- Extend the same concept for other sports like football or basketball.  
+
+This project proves that **Power BI** is not limited to business analytics — it can also deliver **interactive, live-style dashboards** for sports and entertainment data.
+
+---
+
+## Usage
+
+1. Download the Power BI file → [Cricket Live Score Dashboard (.pbix)](https://github.com/mdprince007/Cricket_live-_Score_using_PowerBi/blob/main/cricket_live_score.pbix)  
+2. Open it in **Microsoft Power BI Desktop**.  
+3. Explore the **buttons (All, Live, Results)** to see the interactive card layout in action.  
+4. Modify or connect your own cricket data source to make it live.  
+
+---
+
+## Skills Learned
+
+- Power BI Advanced Dashboard Design  
+- DAX for Dynamic HTML & CSS Integration  
+- Data Modeling & Visualization  
+- UI/UX Design for Data Storytelling  
+- Interactive Data Filtering  
+- Creative Use of Custom Visuals  
 
