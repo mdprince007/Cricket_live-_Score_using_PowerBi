@@ -2,8 +2,8 @@
 A live cricket score dashboard built in Power BI using HTML, CSS, and DAX. It dynamically displays match cards for All, Live, and Result games with team logos, scores, and modern interactive design inspired by real-time sports apps.
 
 
-![Dashboard Preview](57528305-03cf-4767-91a3-0cce56f48295.png)
-
+ ## Dashboard Preview
+<img width="1162" height="504" alt="Dashboard" src="https://github.com/mdprince007/Cricket_live-_Score_using_PowerBi/blob/main/live_score_update.png" />
 A fully **dynamic and visually interactive Cricket Dashboard** built in **Power BI** using **HTML + CSS + DAX**.  
 It displays **live, upcoming, and result-based cricket matches** in a modern card layout — just like a real-time sports app interface.
 
@@ -91,15 +91,5 @@ Each card includes:
 | ODI | ✅ Finished | AUS 256/4 (43.2) |
 | Test | ✅ Result Declared | PAK won by 90 runs |
 
----
 
-## 🔄 Dynamic Update Logic
 
-A short JavaScript block simulates **live score updates** inside Power BI visuals:
-
-```js
-setTimeout(() => {
-  matchData[1].status = 'live';
-  matchData[1].score = 'AUS 256/4 (43.2)';
-  loadMatches(document.querySelector('.filter-btn.active').getAttribute('data-status'));
-}, 10000);
